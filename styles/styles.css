@@ -6,9 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
 
-/** {
+* {
     scroll-behavior: smooth;
-}*/
+}
 
 body {
     margin: 0;
@@ -116,8 +116,12 @@ header {
     width: 40vw;
     justify-content: center;
     align-self: center;
-    padding-top: 20px;
+    margin: 30px 0 0 0;
+    padding: 19px 70px;
+    height: 2vw;
+    border-radius: 50px;
 }
+
 
 nav {
     display: flex;
@@ -126,6 +130,7 @@ nav {
     position: relative;
     width: 100vw;
     text-decoration: none;
+    height: 3vw;
 }
 
 .logo a {
@@ -453,7 +458,8 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
+    border-radius: 0 0 100px 100px;
 }
 
 #projets h2 {
@@ -516,7 +522,7 @@ align-items: center;
 
 .slide {
     flex: 0 0 calc(100% / 3);
-    max-width: calc(84% / 3);
+    max-width: calc(85% / 3);
     min-height: 29vw;
     box-sizing: border-box;
     padding: 7px;
@@ -530,6 +536,7 @@ align-items: center;
     max-width: 100%;
     border-radius:40px;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 5px #00000025;
 }
 
 .typeProjetText {
@@ -550,11 +557,13 @@ align-items: center;
 .slider-nav {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    min-width: 100%;
     position: absolute;
-    top: 50%;
     transform: translateY(-50%);
     padding: 0 20px;
+    height: 100px;
+    margin-top: -1500px;
+    align-items: stretch;
 }
 
 .slider-nav button {
@@ -563,6 +572,9 @@ align-items: center;
     font-size: 2rem;
     color: #554A44;
     cursor: pointer;
+    margin-top: 270vh;
+    padding: 0 50px;
+    z-index: -1;
 }
 
 .pagination {
@@ -584,6 +596,51 @@ align-items: center;
     background-color: #554A44;
 }
 /*FIN ZONE PROJETS*/
+
+
+/*FOOTER*/
+footer {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+    padding-bottom: 10px;
+    background: linear-gradient(90deg, #E2D5CB 45%, #F5F5F5 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img {
+    width: 25px; /* Taille des icônes */
+    height: auto;
+    transition: all 0.3s ease-in-out;
+    mix-blend-mode: exclusion; /* Ajoute l'effet de fusion Exclusion */
+}
+
+.social-icons img:hover {
+    -webkit-filter: drop-shadow(0px 0px 5px #E4B9B090);
+    filter: drop-shadow(0px 0px 5px #E4B9B090);
+}
+/*FIN FOOTER*/
+
 
 /*RESPONSIVE*/
 @media (max-width: 768px) {

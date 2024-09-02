@@ -98,3 +98,18 @@ document.addEventListener("DOMContentLoaded", function() {
     // Initialize the slider
     filterSlides('all'); // Show all slides initially
 });
+
+/*HEADER*/
+document.addEventListener("DOMContentLoaded", function() {
+    const header = document.querySelector("header");
+    const scrollThreshold = 150; // La distance en pixels après laquelle le fond est ajouté
+
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > scrollThreshold) {
+            header.style.backgroundColor = "rgba(37, 34, 33, 0.85)";
+            header.style.transition = "background-color 0.3s ease"; // Transition douce
+        } else {
+            header.style.backgroundColor = "transparent"; // Remettre le fond à transparent si on remonte
+        }
+    });
+});
