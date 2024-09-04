@@ -101,7 +101,7 @@ h2 {
 
 h3 {
     font-size: 16px;
-    padding-left: 4%;
+    padding-left: 5%;
     font-weight: bold;
 }
 /*FIN APPARENCE GÉNÉRALE*/
@@ -540,18 +540,19 @@ align-items: center;
 }
 
 .typeProjetText {
-    padding-left: 4%;
+    padding-left: 5%;
     font-weight: bold;
     color: #CD0063;
 }
 
 .descriptionProjet {
-    padding-left: 4%;
+    padding-left: 5%;
 }
 
 .descriptionProjet a {
     color: #009688;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .slider-nav {
