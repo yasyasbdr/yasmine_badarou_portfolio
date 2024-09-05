@@ -1,10 +1,16 @@
 /*APPARENCE GÉNÉRALE*/
 @font-face {
     font-family: 'Vintage King';
-    src: url('fonts/VintageKing.ttf') format('truetype');
+    src: url('fonts/VintageKing.woff2') format('woff2'), /* Format moderne et léger */
+         url('fonts/VintageKing.woff') format('woff'),   /* Format web standard */
+         url('fonts/VintageKing.ttf') format('truetype'); /* Format TrueType pour compatibilité */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Affiche une police système en attendant que la police se charge */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+
 
 * {
     scroll-behavior: smooth;
