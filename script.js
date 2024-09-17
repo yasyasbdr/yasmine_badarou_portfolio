@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const paginationContainer = document.querySelector('.pagination');
     const filterButtons = document.querySelectorAll('.filter');
 
-    let filteredSlides = Array.from(document.querySelectorAll('.slide'));
+    let filteredSlides = [];
 
     function updatePagination() {
         paginationContainer.innerHTML = ''; // Clear existing dots
@@ -54,11 +54,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function filterSlides(category) {
-        if (category === 'all') {
-            filteredSlides = Array.from(document.querySelectorAll('.slide'));
-        } else {
-            filteredSlides = Array.from(document.querySelectorAll(`.slide[data-category="${category}"]`));
-        }
+        // Filtrer les slides selon la catégorie sélectionnée
+        filteredSlides = Array.from(document.querySelectorAll(`.slide[data-category="${category}"]`));
 
         // Hide all slides and only show filtered ones
         document.querySelectorAll('.slide').forEach(slide => slide.style.display = 'none');
@@ -95,9 +92,10 @@ document.addEventListener("DOMContentLoaded", function() {
         showSlide(currentSlideIndex);
     });
 
-    // Initialize the slider
-    filterSlides('all'); // Show all slides initially
+    // Initialize the slider with a default category (webdesign for example)
+    filterSlides('web');
 });
+
 
 /*HEADER*/
 document.addEventListener("DOMContentLoaded", function() {

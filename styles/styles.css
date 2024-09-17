@@ -493,7 +493,7 @@ align-items: center;
 
 .filter-buttons {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     justify-content: space-evenly;
     width: 57vw;
 }
@@ -592,10 +592,6 @@ align-items: center;
     margin-top: 270vh;
     padding: 0 50px;
     z-index: -1;
-}
-
-.pagination {
-    margin-top: 20px;
 }
 
 .pagination .dot {
