@@ -18,7 +18,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
 
 body {
-    font-family: 'Comfortaa', 'Vintage King', sans-serif /*!important*/;
+    font-family: 'Comfortaa', sans-serif /*!important*/;
 }
 
 * {
