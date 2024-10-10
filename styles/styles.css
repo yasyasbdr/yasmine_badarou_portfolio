@@ -1,21 +1,22 @@
 /*APPARENCE GÉNÉRALE*/
 @font-face {
     font-family: 'Vintage King';
-    src: url('fonts/VintageKing.woff2') format('woff2'),
-         url('fonts/VintageKing.woff') format('woff'),
-         url('fonts/VintageKing.otf') format('opentype');
+    src: url('../fonts/VintageKing.woff2') format('woff2'), /* WOFF2 pour la compatibilité moderne */
+         url('../fonts/VintageKing.woff') format('woff'),   /* WOFF pour une large compatibilité */
+         url('../fonts/VintageKing.otf') format('opentype'); /* OTF comme fallback */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Vintage King Rough';
-    src: url('fonts/VintageKingRoughUpdate.otf') format('opentype');
+    src: url('../fonts/VintageKingRoughUpdate.otf') format('opentype'), /* Assurez-vous que vous avez les bons formats */
+         url('../fonts/VintageKingRoughUpdate.woff') format('woff');
     font-weight: bolder;
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&family=Ma+Shan+Zheng&display=swap'); /* Google fonts import */
 
 body {
     font-family: 'Comfortaa', 'Vintage King', 'Ma Shan Zheng', sans-serif !important;
