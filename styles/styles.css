@@ -18,7 +18,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
 
 body {
-    font-family: 'Comfortaa', sans-serif /*!important*/;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 * {
@@ -27,7 +27,7 @@ body {
 
 body {
     margin: 0;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa', sans-serif !important;
     background-color: #332F2C; /* Couleur unie en arrière-plan */
     overflow-x: hidden; /* Évite les débordements horizontaux */
     display: flex;
@@ -101,7 +101,7 @@ h2 {
     height: 40px;
     border: none;
     color: #ffffff;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa' !important;
     font-weight: 200;
     font-size: 12.5px;
     border-radius: 50px;
@@ -443,7 +443,7 @@ align-items: center;
     padding: 5px 10px;
     border-radius: 30px;
     font-size: 12px;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa', sans-serif !important;
     white-space: nowrap;
     opacity: 0;
     pointer-events: none;
@@ -507,7 +507,7 @@ align-items: center;
     cursor: pointer; /* Curseur changeant au survol */
     margin: 0 10px; /* Espace entre les boutons */
     transition: background 0.3s ease, transform 0.3s ease; /* Transition douce pour le survol */
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa' !important;
     font-weight: 300;
     height: 41px;
     padding: 0 30px;
@@ -614,7 +614,7 @@ align-items: center;
 footer {
     padding: 40px;
     text-align: center;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa', sans-serif !important;
     font-size: 14px;
 }
 
