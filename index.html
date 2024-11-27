@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><!--afficher les accents de la langue-->
+	<meta name="description" content="Bienvenue sur mon portfolio. Découvrez-en plus sur mon parcours et mes réalisations !"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- assurer que les pages fonctionnent bien dans une grande variété de tailles et d'orientations d'écran -->
+
+ <title>Yasmine Badarou | Portfolio</title>
+ <link rel='stylesheet' href='styles/styles.css' type='text/css' />
+ <link rel="shortcut icon" type="image/png" href="ressources/logo_YB_3.png"/><!--icône qui apparaît à côter du titre de la page-->
+
+ <!-- Indexer et suivre, indique à l’explorateur Web que toutes les pages seront parcourues et indexées -->
+ <meta name="robots" content="index,follow" /> 
+ </head>
+<body>
+    <div class="svg-container">
+        <img src="ressources/vague_beige.svg" alt="Vague décorative beige" />
+    </div>
+
+    <header>
+        <nav>
+            <ul class="nav-left">
+                <li><a href="#profil_">Profil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+            </ul>
+            <div class="logo">
+                <a href="index.html#flottaison"><p id="Y">Y</p><br><p id="B">B</p></a>
+            </div>
+            <ul class="nav-right">
+                <li><a href="#projets_">Projets</a></li>
+                <li><a href="#cv_">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="flottaison"><!--Zone de flottaison-->
+        <div id="photoAndText">
+            <div id="photoSection">
+                <img src="ressources/Yasmine_photo.png" alt="Photo de Yasmine Badarou">
+            </div>
+            <div id="textSection">
+                <p id="yasmineBadarou">Yasmine Badarou</p><br>
+                <p id="statut">DÉVELOPPEUSE WEB</p>
+                <div id="animatedMouse"></div>
+                </div>
+            </div>
+
+        <div class="wave-bottom">
+            <img src="ressources/vague_marron.svg" alt="Vague décorative marron">
+        </div>
+        <div class="right-aligned-rectangle"></div>
+    </div>
+    <section id="profil"><!--Zone Profil-->
+            <h2 id="profil_">Profil</h2>
+            <div class="h2-underline"></div>
+            <div id="profil-text">
+                <p>Je suis Yasmine Badarou, diplômée d'une licence en développement web. Ma spécialité, c’est créer de beaux designs web UI/UX, développer de belles interfaces fonctionnelles en Front, et lier tout ça au Back pour une utilisation dynamique.</p>
+                <p class="paddingLeftRight">Dans ce portfolio virtuel, vous pourrez explorer ce que je suis capable de faire à travers divers projets que j’ai réalisés. Si ma patte artistique et mon raisonnement technique vous intéressent, mon CV se trouve en bas de page. On pourra sûrement collaborer !</p>
+                <p>Je suis une personne lumineuse aux grandes ambitions. Apprendre de nouvelles choses et explorer de nouveaux horizons est ce qui m’anime professionnellement. Toute expérience est bonne pour évoluer et agrandir ma plage de savoir faire !</p>
+            </div>
+            <a href="https://www.linkedin.com/in/yasmine-badarou-1647771b8/" class="button">EN SAVOIR +</a>
+    </section>
+    <section id="competences"><!--Zone Compétences-->
+        <h2>Compétences</h2>
+        <div class="h2-underline"></div>
+        <div class="competences-grid-top">
+            <div class="competence" data-tooltip="Figma">
+                <img src="ressources/logo_figma.png" alt="Figma">
+            </div>
+            <div class="competence" data-tooltip="Adobe XD">
+                <img src="ressources/logo_adobexd.png" alt="Adobe XD">
+            </div>
+            <div class="competence" data-tooltip="Photoshop">
+                <img src="ressources/logo_photoshop.png" alt="Photoshop">
+            </div>
+            <div class="competence" data-tooltip="In Design">
+                <img src="ressources/logo_indesign.png" alt="In Design">
+            </div>
+            <div class="competence" data-tooltip="HTML5">
+                <img src="ressources/logo_html.png" alt="HTML5">
+            </div>
+            <div class="competence" data-tooltip="CSS3">
+                <img src="ressources/logo_css.png" alt="CSS3">
+            </div>
+            <div class="competence" data-tooltip="Javascript">
+                <img src="ressources/logo_javascript.png" alt="Javascript">
+            </div>
+        </div>
+        <div class="competences-grid-bottom">
+            <div class="competence" data-tooltip="PHP">
+                <img src="ressources/logo_php.png" alt="PHP">
+            </div>
+            <div class="competence" data-tooltip="Symfony">
+                <img src="ressources/logo_symfony.png" alt="Symfony">
+            </div>
+            <div class="competence" data-tooltip="Angular">
+                <img src="ressources/logo_angular.png" alt="Angular">
+            </div>
+            <div class="competence" data-tooltip="Drupal 10">
+                <img src="ressources/logo_drupal.png" alt="Drupal">
+            </div>
+            <div class="competence" data-tooltip="Wordpress">
+                <img src="ressources/logo_wordpress.png" alt="Wordpress">
+            </div>
+            <div class="competence" data-tooltip="Wondershare Filmora">
+                <img src="ressources/logo_wondersharefilmora.png" alt="Wondershare Filmora">
+            </div>
+            <div class="competence" data-tooltip="Trello">
+                <img src="ressources/logo_trello.png" alt="Trello">
+            </div>        
+        </div>
+        <div class="wave-top" id="projets_">
+            <img src="ressources/vague_beige_2.svg" alt="Vague décorative beige">
+        </div>
+    </section>
+    <section id="projets">
+        <h2>Projets</h2>
+        <div class="h2-underline" style="align-self: center!important;"></div>
+        <div class="filter-buttons">
+            <button class="filter active" data-filter="web">DÉVELOPPEMENT WEB</button>
+            <button class="filter " data-filter="webdesign">WEBDESIGN</button> 
+            <button class="filter" data-filter="audio">AUDIOVISUEL</button>
+        </div>
+        
+        <div class="slider">
+            <div class="slider-wrapper">
+                <!-- WEBDESIGN Projects -->
+                <div class="slide" data-category="webdesign">
+                    <img src="ressources/projet3.png" alt="Meauxplorer">
+                    <h3>MEAUXPLORER</h3>
+                    <p class="typeProjetText">Webdesign</p>
+                    <p class="descriptionProjet"><em>Meauxplorer</em> est la maquette intéractive d'un site d'information conçu pour les Journées Portes Ouvertes de l'Université Gustave Eiffel. <br><br><a href="https://www.figma.com/proto/yduedW1ZCut3ozwAZ1Xpxp/Meauxplorer?page-id=0%3A1&node-id=7-3&scaling=scale-down-width&content-scaling=fixed&t=uHA4UZGQIrh02g8G-1">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="webdesign">
+                    <img src="ressources/projet1.png" alt="Nekomoon">
+                    <h3>NEKOMOON</h3>
+                    <p class="typeProjetText">Webdesign</p>
+                    <p class="descriptionProjet"><em>Nekomoon</em> est la maquette d'un jeu de type 'Clicker Game', conçue sous Adobe XD, pour un développement en HTML, CSS et JavaScript.<br><br><a href="ressources/Nekomoon_maquettes-Yasmine_Badarou.zip" target="_blank" id="nekomoon_">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="webdesign">
+                    <img src="ressources/projet2.png" alt="Only Two">
+                    <h3>ONLY TWO</h3>
+                    <p class="typeProjetText">Webdesign</p>
+                    <p class="descriptionProjet"><em>Only Two</em> est un mini-jeu sous forme de maquette interactive, conçu sous Figma, étant axée sur l'UX du joueur. <br><br><a href="https://www.figma.com/proto/Q8yCwTRxWa8EVjKvh2pQKB/Maquette-ONLY-TWO?page-id=0%3A1&node-id=2-16&starting-point-node-id=87%3A16&scaling=scale-down-width&content-scaling=fixed&t=HJ7eG0aluUTmLlgL-1">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="webdesign">
+                    <img src="ressources/projet4.png" alt="Bunny’s Sudoku">
+                    <h3>BUNNY’S SUDOKU</h3>
+                    <p class="typeProjetText">Webdesign</p>
+                    <p class="descriptionProjet"><em>Bunny's Sudoku</em> est la maquette d'un jeu mobile de type "Sudoku", conçu sous Adobe XD, étant axée sur l'UI du joueur. <br><br><a href="ressources/Bunny's_Sudoku_maquettes-Yasmine_Badarou.zip" target="_blank" id="bunnysSudoku_">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="webdesign">
+                    <img src="ressources/projet5.png" alt="Formulaire de commande">
+                    <h3>FORMULAIRE DE COMMANDE</h3>
+                    <p class="typeProjetText">Webdesign</p>
+                    <p class="descriptionProjet">Ce formulaire de commande est un formulaire dynamique conçu sous Figma pour la société BDR Thermea France. Il sera ensuite développé par Livinweb en Javascript. <br><br><a href="https://www.figma.com/proto/YeQGk5CkkAu65Y9qNrgDUC/Formulaire-BDR?page-id=0%3A1&node-id=6-243&starting-point-node-id=1%3A2&t=aHXI8FN9mvhpOQ0s-1">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="webdesign">
+                    <img src="ressources/projet6.png" alt="Ginger">
+                    <h3>GINGER</h3>
+                    <p class="typeProjetText">Webdesign</p>
+                    <p class="descriptionProjet"><em>Ginger</em> est une maquette conçue sous Adobe XD d'un blog de mode au thème "Streetwear". Elle a par la suite servi de modèle pour la création d'un thème Wordpress que j'ai développé en PHP. <br><br><a href="ressources/Ginger_maquettes-Yasmine_Badarou.zip">VOIR LE PROJET</a></p>
+                </div>
+            
+                <!-- DEVELOPPEMENT WEB Projects -->
+                <div class="slide" data-category="web">
+                    <img src="ressources/projet1.png" alt="Nekomoon">
+                    <h3>NEKOMOON</h3>
+                    <p class="typeProjetText">Développement web</p>
+                    <p class="descriptionProjet"><em>Nekomoon</em> est un jeu de type 'Clicker Game' développé en HTML, CSS et JavaScript, connecté à une API Rest. J'ai conçu la maquette du jeu sous Adobe XD avant de le développer.<br><br><a href="https://nekomoon.netlify.app/index.html">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="web">
+                    <img src="ressources/projet8.png" alt="Le vaudou en Afrique">
+                    <h3>LE VAUDOU EN AFRIQUE</h3>
+                    <p class="typeProjetText">Développement web</p>
+                    <p class="descriptionProjet"><em>Le vaudou en Afrique</em> est un site informatif développé en HTML, CSS et JavaScript, utilisant la technologie WebGL pour l'intégration d'un masque en 3D.<br><br><a href="https://td5hebergement.netlify.app/">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="web">
+                    <img src="ressources/projet7.png" alt="Webdocumentaire">
+                    <h3>LES DANSEURS DE RUE</h3>
+                    <p class="typeProjetText">Développement web</p>
+                    <p class="descriptionProjet"><em>Les Danseurs de rue</em> est un webdocumentaire développé en HTML, CSS et JavaScript.<br><br><a href="https://lesdanseursderue.netlify.app/">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="web">
+                    <img src="ressources/projet9.png" alt="Portfolio v1">
+                    <h3>PORTFOLIO V1</h3>
+                    <p class="typeProjetText">Développement web</p>
+                    <p class="descriptionProjet"><em>Portfolio V1</em> est la première version de mon portfolio développé en 2022, dans les langages HTML, CSS et JavaScript.<br><br><a href="http://localhost/portfolio/index.html">VOIR LE PROJET</a></p>
+                </div>
+            
+                <!-- Audiovisuel Projects -->
+                <div class="slide" data-category="audio">
+                    <img src="ressources/projet13.png" alt="Table & chaises Blender">
+                    <h3>TABLE & CHAISES BLENDER</h3>
+                    <p class="typeProjetText">Audiovisuel</p>
+                    <p class="descriptionProjet">J'ai modélisé ce set de table et de chaises sous Blender, en prenant pour modèle un vrai ensemble de jardin.<br><br><a href="ressources/Set_tables_chaises_Blender-Yasmine_Badarou.zip">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="audio">
+                    <img src="ressources/projet14.png" alt="Renard Blender">
+                    <h3>RENARD BLENDER</h3>
+                    <p class="typeProjetText">Audiovisuel</p>
+                    <p class="descriptionProjet">J'ai modélisé ce personnage renard sous Blender. Il sera utilisé pour un projet mini-jeu développé sous Unity, avec deux camarades de licence.<br><br><a href="ressources/Personnage_Renard_Blender-Yasmine_Badarou.zip">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="audio">
+                    <img src="ressources/projet15.png" alt="Coquillage Blender">
+                    <h3>COQUILLAGE BLENDER</h3>
+                    <p class="typeProjetText">Audiovisuel</p>
+                    <p class="descriptionProjet">J'ai modélisé ce coquillage sous Blender. Il sera utilisé pour un projet mini-jeu développé sous Unity, avec deux camarades de licence.<br><br><a href="ressources/Coquillage_Blender-Yasmine_Badarou.zip">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="audio">
+                    <img src="ressources/projet12.gif" alt="Bracelet animé Blender">
+                    <h3>BRACELET ANIMÉ BLENDER</h3>
+                    <p class="typeProjetText">Audiovisuel</p>
+                    <p class="descriptionProjet">J'ai modélisé ce bracelet animé sous Blender. Le cœur présent dans le pendentif en verre tourne et change de couleur. La chaîne change de couleur en fonction de celle du cœur. <br><br><a href="ressources/Bracelet_animé_Blender-Yasmine_Badarou.zip">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="audio">
+                    <img src="ressources/projet10.png" alt="Logo Icon Dahomey">
+                    <h3>LOGO ICON DAHOMEY</h3>
+                    <p class="typeProjetText">Audiovisuel</p>
+                    <p class="descriptionProjet">J'ai réalisé ce logo sous Adobe Illustrator. Initialement crée dans le cadre d'un exercice universitaire, il servira pour ma marque de mode en crochet, dont le lancement est prévu pour fin 2024. <br><br><a href="ressources/Logo_Icon_Dahomey-Yasmine_Badarou.zip">VOIR LE PROJET</a></p>
+                </div>
+                <div class="slide" data-category="audio">
+                    <img src="ressources/projet11.png" alt="Camion animation">
+                    <h3>CAMION ANIMATION</h3>
+                    <p class="typeProjetText">Audiovisuel</p>
+                    <p class="descriptionProjet">J'ai réalisé cette animation sous After Effects. L'objectif était de contextualiser une scène dans laquelle un système de bras articulé récupère un objet d'un point A, pour le déposer vers un point B. <br><br><a href="ressources/Animation_Bras_Articulé-Yasmine_Badarou.zip">VOIR LE PROJET</a></p>
+                </div>
+            </div>            
+        </div>
+        <div class="slider-nav">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="pagination"><!-- Add dots dynamically based on the number of slides --></div>
+        <a href="ressources/CV Alternance Badarou Yasmine - Septembre 2024.pdf" target="_blank" id="cv_" class="button" style="background: linear-gradient(90deg, rgba(133, 151, 124, 0.8) 0%, rgba(216, 203, 193, 0.8) 18%, rgba(200, 139, 190, 0.8) 38%, rgba(133, 137, 159, 0.8) 58%, rgba(226, 213, 203, 0.8) 78%, rgba(140, 122, 112, 0.8) 100%); margin-top: 70px; padding-left: 20px; padding-right: 20px; text-shadow: 0px 0px 30px #000000;">
+            AFFICHER MON CV
+        </a> 
+    </section>
+          
+    <footer>
+        <p>© 2024 Portfolio Yasmine Badarou - Tous droits réservés</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/yasmine-badarou-1647771b8/" target="_blank">
+                <img src="ressources/logo_linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/yasyasbdr" target="_blank">
+                <img src="ressources/logo_github.svg" alt="GitHub">
+            </a>
+        </div>
+    </footer>
+    
+       
+    <script src="script.js"></script> <!--referencer fichiers javascript-->
+    <noscript>
+    Ce site utilise la technologie Javascript pour fonctionner. Veuillez activer Javascript sur votre navigateur.
+    </noscript>
+</body>
+</html>
