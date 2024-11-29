@@ -15,7 +15,8 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap&v=1');
+
 
 body {
     font-family: 'Comfortaa', sans-serif;
@@ -683,7 +684,8 @@ footer p {
     
     header {
         /*width: 72.1vw;*/
-        width: 50vh;
+        /*width: 50vh;*/
+        width: 90%;
         height: 6.4vw;
         height: 4.3vh;
 
@@ -716,7 +718,7 @@ footer p {
 
     #B {
         font-size: 4vh;
-        margin-top: -12vh;
+        margin-top: /*12vh*/-3em;
     }
 }
 
