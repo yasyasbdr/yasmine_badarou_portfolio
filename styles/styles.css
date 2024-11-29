@@ -155,6 +155,8 @@ nav {
 }
 
 nav div {
+    padding-left: 14px;
+    padding-bottom: 12px;
     width: 20%;
     display: flex;
     justify-content: center;
@@ -561,6 +563,7 @@ align-items: center;
 
 .descriptionProjet {
     padding-left: 5%;
+    font-weight: 300;
 }
 
 .descriptionProjet a {
@@ -604,7 +607,7 @@ align-items: center;
 }
 
 .pagination .dot.active {
-    background-color: #554A44;
+    background-color: linear-gradient(90deg, #85977C, #D8CBC1, #C88BBE, #85899F, #E2D5CB, #F4EFDE);
 }
 /*FIN ZONE PROJETS*/
 
@@ -654,16 +657,61 @@ footer p {
 
 
 /*RESPONSIVE*/
-@media (max-width: 768px) {
+@media (max-width: 767px) {/*Mobile (paysage)*/
     .slide {
-        flex: 0 0 calc(100% / 2); /* Deux slides par vue */
+        flex: 0 0 calc(100% / 2); /*Deux slides par vue*/
         max-width: calc(100% / 2);
+    }
+    
+    header {
+        width: 50vw;
+    }
+
+    nav ul li a {
+        font-size: 2.1vh;
+    }
+
+    .nav-left {
+        padding: 4px 0px;
+    }
+
+    .nav-right {
+        padding: 4px 0px;
+    }
+
+    #Y {
+        font-size: 4.5vh;
+    }
+
+    #B {
+        font-size: 4vh;
+        margin-top: -72px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) {/*Mobile (portrait)*/
     .slide {
         flex: 0 0 100%; /* Un slide par vue */
         max-width: 100%;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {/*Tablettes*/
+    /*body {
+        font-size: 16px;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+    }*/
+}
+
+@media (min-width: 1025px) {/*Desktop standard*/
+    /*body {
+        font-size: 18px;
+    }
+    .menu {
+        justify-content: flex-start;
+    }*/
+}
+/*FIN RESPONSIVE*/
