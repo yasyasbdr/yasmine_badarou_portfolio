@@ -125,7 +125,7 @@ h3 {
 
 /*HEADER*/
 header {
-    position: fixed;
+    /*position: fixed;
     display: flex;
     z-index: 1000;
     width: 40vw;
@@ -134,16 +134,34 @@ header {
     margin: 30px 0 0 0;
     padding: 19px 70px;
     height: 2vw;
+    border-radius: 50px;*/
+    position: fixed;
+    display: flex;
+    z-index: 1000;
+    width: 49.1vw;
+    justify-content: center;
+    align-self: center;
+    margin: 30px 0 0 0;
+    padding-top: 16px;
+    height: 3.4vw;
     border-radius: 50px;
+    align-items: center;
 }
 
 
 nav {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50vw;
+    text-decoration: none;
+    height: 3vw;*/
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100vw;
+    width: 40vw;
     text-decoration: none;
     height: 3vw;
 }
@@ -200,7 +218,7 @@ nav p {
 }
 
 nav ul li a {
-    font-size: 2.3vh;
+    font-size: 1em;
     color: #ffffff; /* Couleur initiale du texte */
     font-weight: 300;
     position: relative;
@@ -664,19 +682,32 @@ footer p {
     }
     
     header {
-        width: 50vw;
+        /*width: 72.1vw;*/
+        width: 50vh;
+        height: 6.4vw;
+        height: 4.3vh;
+
+    }
+
+    nav {
+        width: 80%;
     }
 
     nav ul li a {
-        font-size: 2.1vh;
+        font-size: 2.8vw;
+    }
+
+    a[href="#competences"] {
+        margin-left: 1.3vw;
     }
 
     .nav-left {
-        padding: 4px 0px;
+        padding: 2px 0px 13px 0px;
     }
 
     .nav-right {
-        padding: 4px 0px;
+        padding: 2px 0px 13px 0px;
+        justify-content: space-evenly;
     }
 
     #Y {
