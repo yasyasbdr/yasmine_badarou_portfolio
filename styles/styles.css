@@ -721,8 +721,8 @@ footer p {
     }
 
     #B {
-        font-size: 4vh;
-        margin-top: /*12vh*/-3em;
+        font-size: 1.7em;
+        margin-top: /*12vh*/-24vw;
         position: relative;
     }
 }
@@ -737,9 +737,7 @@ footer p {
         /*width: 72.1vw;*/
         /*width: 50vh;*/
         width: 90%;
-        height: 6.4vw;
-        height: 4.3vh;
-
+        height: 8.5vw;
     }
 
     nav {
@@ -776,7 +774,8 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: -80px;
+        margin-top: /*12vh*/-24vw;
+        position: relative;
     }
 }
 
