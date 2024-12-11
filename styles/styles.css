@@ -727,7 +727,7 @@ footer p {
     #B {
         font-size: 1.7em;
         margin-top: /*12vh*/ -77px;
-        position: relative;
+        /*position: relative;*/
     }
 }
 
@@ -736,7 +736,7 @@ footer p {
         flex: 0 0 100%; /* Un slide par vue */
         max-width: 100%;
     }
-
+/*HEADER*/
     header {
         /*width: 72.1vw;*/
         /*width: 50vh;*/
@@ -779,8 +779,58 @@ footer p {
     #B {
         font-size: 1.7em;
         margin-top: /*12vh*/-77px;
-        position: relative;
+        /*position: relative;*/
     }
+/*FIN HEADER*/
+
+/*ZONE DE FLOTTAISON*/
+    #photoAndText {
+        width: 85%;
+    }
+    #photoSection img {
+        width: 50vh;
+    }
+
+    #textSection {
+        text-align: center;
+    }
+
+    #flottaison {
+        height: 80vh;
+    }
+
+    #yasmineBadarou {
+        font-size: 6vh;
+        margin: 80px 0 0 0;
+        line-height: 35px;
+    }
+
+    #statut {
+        font-size: 0.8em;
+        margin: 25px 0 0 0;
+    }
+
+    #animatedMouse {
+        margin-top: 30px;
+        width: 22px;
+        height: 36px;
+    }
+
+    #animatedMouse::before {
+        height: 10px;
+    }
+
+    @keyframes scroll {
+    0% {
+        opacity: 1;
+        top: 5px;
+    }
+    100% {
+        opacity: 0.3;
+        top: 7px;
+    }
+}
+/*FIN ZONE DE FLOTTAISON*/
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {/*Tablettes*/
