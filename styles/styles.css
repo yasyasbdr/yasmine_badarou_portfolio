@@ -689,55 +689,7 @@ footer p {
         /*width: 72.1vw;*/
         /*width: 50vh;*/
         width: 90%;
-        height: 6.4vw;
-        height: 4.3vh;
-
-    }
-
-    nav {
-        width: 80%;
-    }
-
-    nav ul li a {
-        font-size: 1.6vh;
-    }
-
-    a[href="#competences"] {
-        margin-left: 1.3vw;
-    }
-
-    .nav-left {
-        padding: 2px 0px 13px 0px;
-    }
-
-    .nav-right {
-        padding: 2px 0px 13px 0px;
-        justify-content: space-evenly;
-    }
-
-    #Y {
-        font-size: 4.5vh;
-        position: relative;
-    }
-
-    #B {
-        font-size: 1.7em;
-        margin-top: /*12vh*/-24vw;
-        position: relative;
-    }
-}
-
-@media (max-width: 480px) {/*Mobile (portrait)*/
-    .slide {
-        flex: 0 0 100%; /* Un slide par vue */
-        max-width: 100%;
-    }
-
-    header {
-        /*width: 72.1vw;*/
-        /*width: 50vh;*/
-        width: 90%;
-        height: 8.5vw;
+        height: 5.5vw!important;
     }
 
     nav {
@@ -774,7 +726,59 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: /*12vh*/-24vw;
+        margin-top: /*12vh*/ -77px;
+        position: relative;
+    }
+}
+
+@media (max-width: 480px) {/*Mobile (portrait)*/
+    .slide {
+        flex: 0 0 100%; /* Un slide par vue */
+        max-width: 100%;
+    }
+
+    header {
+        /*width: 72.1vw;*/
+        /*width: 50vh;*/
+        width: 90%;
+        height: 8.5vw!important;
+    }
+
+    nav {
+        width: 80%;
+    }
+
+    nav ul li a {
+        font-size: 0.9em;
+    }
+
+    a[href="#competences"] {
+        display: none;
+    }
+
+    .nav-left li:nth-child(3) a[href="#competences"] {
+        margin-left: -4.3vw;
+        position: relative;
+        display: inline-block;
+    }
+
+    .nav-left {
+        padding: 4px 0px 13px 0px;
+
+    }
+
+    .nav-right {
+        padding: 4px 0px 13px 0px;
+        justify-content: space-evenly;
+    }
+
+    #Y {
+        font-size: 1.9em;
+    }
+
+    #B {
+        font-size: 1.7em;
+        margin-top: /*12vh*/-77px;
         position: relative;
     }
 }
