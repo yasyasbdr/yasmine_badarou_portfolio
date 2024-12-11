@@ -237,6 +237,9 @@ nav ul li a.hovered {
     -webkit-text-fill-color: transparent; /* Le texte devient transparent pour laisser le dégradé visible */
 }
 
+.nav-left li:nth-child(3) a[href="#competences"] {
+    display: none;
+}
 /*FIN HEADER*/
 
 /*ZONE DE FLOTTAISON*/
@@ -742,15 +745,22 @@ footer p {
     }
 
     nav ul li a {
-        font-size: 1.6vh;
+        font-size: 0.8em;
     }
 
     a[href="#competences"] {
-        margin-left: 1.3vw;
+        display: none;
+    }
+
+    .nav-left li:nth-child(3) a[href="#competences"] {
+        margin-left: -4.3vw;
+        position: relative;
+        display: inline-block;
     }
 
     .nav-left {
         padding: 2px 0px 13px 0px;
+
     }
 
     .nav-right {
@@ -759,12 +769,12 @@ footer p {
     }
 
     #Y {
-        font-size: 4.5vh;
+        font-size: 2em;
     }
 
     #B {
-        font-size: 4vh;
-        margin-top: /*12vh*/-3em;
+        font-size: 1.8em;
+        margin-top: -80px;
     }
 }
 
