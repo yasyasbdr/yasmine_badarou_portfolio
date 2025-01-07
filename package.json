@@ -1,0 +1,12 @@
+{
+  "name": "portfolio2024",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+  "build-css": "sass --watch scss:css"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

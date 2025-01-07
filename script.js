@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-/*HEADER*/
+//HEADER
 document.addEventListener("DOMContentLoaded", function() {
     const header = document.querySelector("header");
     const scrollThreshold = 150; // La distance en pixels après laquelle le fond est ajouté

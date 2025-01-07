@@ -736,7 +736,16 @@ footer p {
         flex: 0 0 100%; /* Un slide par vue */
         max-width: 100%;
     }
-/*HEADER*/
+    /*DÉBUT APPARENCE GÉNÉRALE*/
+    h2 {
+        font-size: 3.3em;
+    }
+
+    .h2-underline {
+        width: 80px;
+    }
+    /*FIN APPARENCE GÉNÉRALE*/
+    /*DÉBUT HEADER*/
     header {
         /*width: 72.1vw;*/
         /*width: 50vh;*/
@@ -781,28 +790,29 @@ footer p {
         margin-top: /*12vh*/-77px;
         /*position: relative;*/
     }
-/*FIN HEADER*/
+    /*FIN HEADER*/
 
-/*ZONE DE FLOTTAISON*/
+    /*ZONE DE FLOTTAISON*/
     #photoAndText {
-        width: 85%;
+        width: 90%;
     }
+
     #photoSection img {
-        width: 50vh;
-        margin-right: 25px;
+        width: 47vh;
+        margin-right: 30px;
     }
 
     #textSection {
         text-align: center;
-        padding-left: 20px;
+        padding-left: 30px;
     }
 
     #flottaison {
-        height: 75vh;
+        height: 65vh;
     }
 
     #yasmineBadarou {
-        font-size: 6vh;
+        font-size: 5vh;
         margin: 80px 0 0 0;
         line-height: 0.9em;
     }
@@ -823,17 +833,64 @@ footer p {
     }
 
     @keyframes scroll {
-    0% {
-        opacity: 1;
-        top: 5px;
+        0% {
+            opacity: 1;
+            top: 5px;
+        }
+        100% {
+            opacity: 0.3;
+            top: 7px;
+        }
     }
-    100% {
-        opacity: 0.3;
-        top: 7px;
+
+    .right-aligned-rectangle {
+        top: 65vh;
+        }
+    /*FIN ZONE DE FLOTTAISON*/
+    /*DÉBUT ZONE PROFIL*/
+    #profil-text {
+        flex-direction: column;
+        padding: 40px 0;
     }
+
+    #profil-text p {
+        font-size: 1.67vh;
+    }
+
+    .paddingLeftRight {
+        padding: 0;
+    }
+    /*FIN ZONE PROFIL*/
+    /*DÉBUT ZONE COMPÉTENCES*/
+    #competences {
+        padding: 30vw 15vw 8vw;
+    }
+    #competences h2 {
+        padding-left: 3.4%;
+    }
+
+    .competence img {
+        height: 4vh;
+    }
+
+    .competences-grid-top {
+        gap: 10px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    .competences-grid-bottom {
+        gap: 2px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 30vw;
+    /*FIN ZONE COMPÉTENCES*/
 }
-/*FIN ZONE DE FLOTTAISON*/
-}
+
+
+
 
 @media (min-width: 768px) and (max-width: 1024px) {/*Tablettes*/
     /*body {
