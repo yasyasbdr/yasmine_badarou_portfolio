@@ -726,7 +726,7 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: -10vh/*-77px*/;
+        margin-top: -70px;
         /*position: relative;*/
     }
 }
@@ -743,6 +743,7 @@ footer p {
 
     .h2-underline {
         width: 80px;
+        margin-top: 10px;
     }
     /*FIN APPARENCE GÉNÉRALE*/
     /*DÉBUT HEADER*/
@@ -848,6 +849,9 @@ footer p {
         }
     /*FIN ZONE DE FLOTTAISON*/
     /*DÉBUT ZONE PROFIL*/
+    #profil {
+        padding: 0 11vw 0;
+    }
     #profil-text {
         flex-direction: column;
         padding: 40px 0;
