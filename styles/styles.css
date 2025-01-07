@@ -726,7 +726,7 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: /*12vh*/ -77px;
+        margin-top: -12.7vh/*-77px*/;
         /*position: relative;*/
     }
 }
@@ -787,7 +787,7 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: /*12vh*/-77px;
+        margin-top: -12.7vh/*-77px*/;
         /*position: relative;*/
     }
     /*FIN HEADER*/
@@ -854,7 +854,7 @@ footer p {
     }
 
     #profil-text p {
-        font-size: 1.67vh;
+        font-size: 2vh;
     }
 
     .paddingLeftRight {
@@ -863,7 +863,7 @@ footer p {
     /*FIN ZONE PROFIL*/
     /*DÉBUT ZONE COMPÉTENCES*/
     #competences {
-        padding: 30vw 15vw 8vw;
+        padding: 30vw 11vw 8vw;
     }
     #competences h2 {
         padding-left: 3.4%;
@@ -874,7 +874,7 @@ footer p {
     }
 
     .competences-grid-top {
-        gap: 10px;
+        gap: 18px;
         justify-content: flex-start;
         flex-wrap: wrap;
         margin-top: 70px;
@@ -882,10 +882,11 @@ footer p {
     }
 
     .competences-grid-bottom {
-        gap: 2px;
+        gap: 8px;
         justify-content: flex-start;
         flex-wrap: wrap;
         margin-bottom: 30vw;
+    }
     /*FIN ZONE COMPÉTENCES*/
 }
 
