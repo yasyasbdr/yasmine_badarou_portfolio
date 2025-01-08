@@ -726,7 +726,7 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: -70px;
+        margin-top: -90px;
         /*position: relative;*/
     }
 }
@@ -788,7 +788,7 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: -12.7vh/*-77px*/;
+        margin-top: /*-12.7vh*/-90px;
         /*position: relative;*/
     }
     /*FIN HEADER*/
