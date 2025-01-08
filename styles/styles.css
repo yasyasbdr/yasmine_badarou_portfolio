@@ -631,6 +631,10 @@ align-items: center;
 .pagination .dot.active {
     background-color: linear-gradient(90deg, #85977C, #D8CBC1, #C88BBE, #85899F, #E2D5CB, #F4EFDE);
 }
+
+#devwebresponsive {
+    display: none;
+}
 /*FIN ZONE PROJETS*/
 
 
@@ -726,9 +730,18 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: -30px;
+        margin-top: -20px;
         /*position: relative;*/
     }
+    /*DÉBUT ZONE PROJETS*/
+    #devwebresponsive {
+        display: block;
+    }
+
+    .filter-buttons button:nth-of-type(1) {
+        display: none;
+    }
+    /*FIN ZONE PROJETS*/
 }
 
 @media (max-width: 480px) {/*Mobile (portrait)*/
@@ -743,7 +756,7 @@ footer p {
 
     .h2-underline {
         width: 80px;
-        margin-top: 20px;
+        margin-top: 25px;
     }
     /*FIN APPARENCE GÉNÉRALE*/
     /*DÉBUT HEADER*/
@@ -788,7 +801,7 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: /*-12.7vh*/-30px;
+        margin-top: /*-12.7vh*/-20px;
         /*position: relative;*/
     }
     /*FIN HEADER*/
@@ -858,7 +871,7 @@ footer p {
     }
 
     #profil-text p {
-        font-size: 0.9em;
+        font-size: 0.95em;
     }
 
     .paddingLeftRight {
@@ -892,6 +905,28 @@ footer p {
         margin-bottom: 30vw;
     }
     /*FIN ZONE COMPÉTENCES*/
+    /*DÉBUT ZONE PROJETS*/
+    .filter-buttons {
+        width: 90vw;
+        justify-content: center;
+    }
+
+    .filter-buttons button {
+        font-size: 0.72em;
+        height: 12vw;
+        width: 30vw;
+        margin: 0 3px;
+        padding: 0 6px
+    }
+
+    #devwebresponsive {
+        display: block;
+    }
+
+    .filter-buttons button:nth-of-type(1) {
+        display: none;
+    }
+    /*FIN ZONE PROJETS*/
 }
 
 
