@@ -726,7 +726,7 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: -40px;
+        margin-top: -30px;
         /*position: relative;*/
     }
 }
@@ -738,12 +738,12 @@ footer p {
     }
     /*DÉBUT APPARENCE GÉNÉRALE*/
     h2 {
-        font-size: 3.3em;
+        font-size: 3em;
     }
 
     .h2-underline {
         width: 80px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     /*FIN APPARENCE GÉNÉRALE*/
     /*DÉBUT HEADER*/
@@ -788,7 +788,7 @@ footer p {
 
     #B {
         font-size: 1.7em;
-        margin-top: /*-12.7vh*/-40px;
+        margin-top: /*-12.7vh*/-30px;
         /*position: relative;*/
     }
     /*FIN HEADER*/
@@ -854,11 +854,11 @@ footer p {
     }
     #profil-text {
         flex-direction: column;
-        padding: 40px 0;
+        padding: 35px 0;
     }
 
     #profil-text p {
-        font-size: 2vh;
+        font-size: 0.9em;
     }
 
     .paddingLeftRight {
@@ -874,11 +874,11 @@ footer p {
     }
 
     .competence img {
-        height: 4vh;
+        height: 8.3vw;
     }
 
     .competences-grid-top {
-        gap: 18px;
+        gap: 4.2vw;
         justify-content: flex-start;
         flex-wrap: wrap;
         margin-top: 70px;
@@ -886,7 +886,7 @@ footer p {
     }
 
     .competences-grid-bottom {
-        gap: 8px;
+        gap: 2.4vw;
         justify-content: flex-start;
         flex-wrap: wrap;
         margin-bottom: 30vw;
