@@ -818,8 +818,8 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     }
 
     #photoSection img {
-        width: /*47vh*/58vh;
-        margin-right: 25px;
+        width: /*47vh*/56vh;
+        margin-right: 45px;
         margin-bottom: -30px;
     }
 
@@ -829,7 +829,7 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     }
 
     #flottaison {
-        height: 88vh;
+        height: 85vh;
     }
 
     #yasmineBadarou {
@@ -865,7 +865,7 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     }
 
     .right-aligned-rectangle {
-        top: 88vh;
+        top: 85vh;
         }
     /*FIN ZONE DE FLOTTAISON*/
     /*DÉBUT ZONE PROFIL*/
