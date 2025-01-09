@@ -736,7 +736,7 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
 
     #B {
         font-size: 1.7em;
-        margin-top: -47px;
+        margin-top: -48px;
         /*position: relative;*/
     }
     /*DÉBUT ZONE PROJETS*/
@@ -807,7 +807,7 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
 
     #B {
         font-size: 1.7em;
-        margin-top: /*-12.7vh*/-47px;
+        margin-top: -48px;
         /*position: relative;*/
     }
     /*FIN HEADER*/
@@ -818,8 +818,9 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     }
 
     #photoSection img {
-        width: 47vh;
-        margin-right: 30px;
+        width: /*47vh*/58vh;
+        margin-right: 25px;
+        margin-bottom: -30px;
     }
 
     #textSection {
@@ -828,7 +829,7 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     }
 
     #flottaison {
-        height: 90vh;
+        height: 88vh;
     }
 
     #yasmineBadarou {
@@ -864,7 +865,7 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     }
 
     .right-aligned-rectangle {
-        top: 90vh;
+        top: 88vh;
         }
     /*FIN ZONE DE FLOTTAISON*/
     /*DÉBUT ZONE PROFIL*/
@@ -957,9 +958,10 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     /*DÉBUT FOOTER*/
     footer p {
         font-size: 1em;
+        padding-bottom: 20px;
     }
     .social-icons img {
-        width: 2em;
+        width: 2.3em;
     }
 
     footer > p:nth-of-type(2),p:nth-of-type(3) {
