@@ -102,7 +102,6 @@ h2 {
     height: 40px;
     border: none;
     color: #ffffff;
-    font-family: 'Comfortaa' !important;
     font-weight: 200;
     font-size: 12.5px;
     border-radius: 50px;
@@ -466,7 +465,6 @@ align-items: center;
     padding: 5px 10px;
     border-radius: 30px;
     font-size: 12px;
-    font-family: 'Comfortaa', sans-serif !important;
     white-space: nowrap;
     opacity: 0;
     pointer-events: none;
@@ -647,7 +645,6 @@ align-items: center;
 footer {
     padding: 40px;
     text-align: center;
-    font-family: 'Comfortaa', sans-serif !important;
     font-size: 14px;
 }
 
@@ -683,6 +680,10 @@ footer p {
 .social-icons img:hover {
     -webkit-filter: drop-shadow(0px 0px 5px #E4B9B090);
     filter: drop-shadow(0px 0px 5px #E4B9B090);
+}
+
+footer > p:nth-of-type(2),p:nth-of-type(3) {
+    display: none;
 }
 /*FIN FOOTER*/
 
@@ -827,7 +828,7 @@ footer p {
     }
 
     #flottaison {
-        height: 65vh;
+        height: 90vh;
     }
 
     #yasmineBadarou {
@@ -863,7 +864,7 @@ footer p {
     }
 
     .right-aligned-rectangle {
-        top: 65vh;
+        top: 90vh;
         }
     /*FIN ZONE DE FLOTTAISON*/
     /*DÉBUT ZONE PROFIL*/
@@ -931,7 +932,50 @@ footer p {
     .filter-buttons button:nth-of-type(1) {
         display: none;
     }
+
+    .slide {
+        margin: 65px 2vw 30px;
+    }
+
+    .slider-nav {
+        margin-top: 27em;
+    }
+
+    .slider-nav button {
+        padding: 0 10px;
+    }
+
+    .firstSlideResponsive {
+        margin-left: 0;
+    }
+
+    #projets {
+        padding-bottom: 100px;
+        border-radius: 0 0 60px 60px;
+    }
     /*FIN ZONE PROJETS*/
+    /*DÉBUT FOOTER*/
+    footer p {
+        font-size: 1em;
+    }
+    .social-icons img {
+        width: 2em;
+    }
+
+    footer > p:nth-of-type(2),p:nth-of-type(3) {
+        display: block;
+    }
+
+    footer > p:nth-of-type(2) {
+        padding-bottom: 0;
+        margin-bottom: -10px;
+    }
+    
+
+    footer > p:nth-of-type(1) {
+        display: none;
+    }
+    /*FIN FOOTER*/
 }
 
 
