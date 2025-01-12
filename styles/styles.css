@@ -121,20 +121,39 @@ h3 {
 }
 /*FIN APPARENCE GÉNÉRALE*/
 
+/*DÉBUT ANIMATION*/
+@keyframes smoothEntry {
+    from {
+        opacity: 0;
+    }
+   
+    To {
+        opacity: 1;
+    }
+   }
 
+   @keyframes leftSlideEntry {
+    from {
+        margin-right: 30px;
+    }
+   
+    To {
+        margin-right: 0px;
+    }
+   }
+   @keyframes rightSlideEntry {
+    from {
+        margin-left: 30px;
+    }
+   
+    To {
+        margin-left: 0px;
+    }
+   }
+/*FIN ANIMATION*/
 
 /*HEADER*/
 header {
-    /*position: fixed;
-    display: flex;
-    z-index: 1000;
-    width: 40vw;
-    justify-content: center;
-    align-self: center;
-    margin: 30px 0 0 0;
-    padding: 19px 70px;
-    height: 2vw;
-    border-radius: 50px;*/
     position: fixed;
     display: flex;
     z-index: 1000;
@@ -150,13 +169,6 @@ header {
 
 
 nav {
-    /*display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 50vw;
-    text-decoration: none;
-    height: 3vw;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,6 +176,8 @@ nav {
     width: 40vw;
     text-decoration: none;
     height: 3vw;
+    animation: smoothEntry 1s;
+    animation-delay: 0.3s;
 }
 
 .logo a {
@@ -275,6 +289,8 @@ nav ul li a.hovered {
     width: 70vh;
     height: auto;
     margin-bottom: -70px;
+    animation: leftSlideEntry 1s;
+    animation-delay: 0.3s;
 }
 
 #textSection {
@@ -294,6 +310,8 @@ align-items: center;
     font-size: 5vw;
     padding-left: 3%;
     margin: -40px 0 0 0;
+    animation: rightSlideEntry 1s;
+    animation-delay: 0.3s;
 }
 
 
@@ -303,6 +321,8 @@ align-items: center;
     color: #ffffff;
     margin: -40px 0 0 0;
     text-shadow: 0 0 30px #00000090;
+    animation: smoothEntry 2s;
+    animation-delay: 0.3s;
 }
 
 /* Animation de la souris */
@@ -363,7 +383,6 @@ align-items: center;
     height: 200px;
     background-color: #252221;
 }
-
 /*FIN ZONE DE FLOTTAISON*/
 
 
@@ -682,7 +701,8 @@ footer p {
     filter: drop-shadow(0px 0px 5px #E4B9B090);
 }
 
-footer > p:nth-of-type(2),p:nth-of-type(3) {
+footer > p:nth-of-type(2),
+footer > p:nth-of-type(3) {
     display: none;
 }
 /*FIN FOOTER*/
@@ -818,9 +838,11 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     }
 
     #photoSection img {
-        width: /*47vh*/56vh;
-        margin-right: 55px;
-        margin-bottom: -25px;
+        width: 47vh;
+        margin-right: 30px;
+        margin-bottom: -30px;
+        animation: smoothEntry 1s;
+        animation-delay: 0.3s;
     }
 
     #textSection {
@@ -829,7 +851,7 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     }
 
     #flottaison {
-        height: 86vh;
+        height: 83vh;
     }
 
     #yasmineBadarou {
@@ -865,7 +887,7 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
     }
 
     .right-aligned-rectangle {
-        top: 86vh;
+        top: 83vh;
         }
     /*FIN ZONE DE FLOTTAISON*/
     /*DÉBUT ZONE PROFIL*/
@@ -964,7 +986,8 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
         width: 2.3em;
     }
 
-    footer > p:nth-of-type(2),p:nth-of-type(3) {
+    footer > p:nth-of-type(2),
+    footer > p:nth-of-type(3) {
         display: block;
     }
 
@@ -972,7 +995,6 @@ footer > p:nth-of-type(2),p:nth-of-type(3) {
         padding-bottom: 0;
         margin-bottom: -10px;
     }
-    
 
     footer > p:nth-of-type(1) {
         display: none;
