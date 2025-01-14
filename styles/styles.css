@@ -122,7 +122,7 @@ h3 {
 /*FIN APPARENCE GÉNÉRALE*/
 
 /*DÉBUT ANIMATION*/
-@keyframes smoothEntry {
+   @keyframes smoothEntry {
     from {
         opacity: 0;
     }
@@ -131,25 +131,44 @@ h3 {
         opacity: 1;
     }
    }
-
    @keyframes leftSlideEntry {
     from {
         margin-right: 30px;
+        opacity: 0;
     }
    
     To {
         margin-right: 0px;
+        opacity: 1 ;
     }
    }
    @keyframes rightSlideEntry {
     from {
         margin-left: 30px;
+        opacity: 0;
     }
    
     To {
         margin-left: 0px;
+        opacity: 1;
     }
    }
+
+    .animate-on-scroll {/* État initial (invisible) */
+        opacity: 0;
+        transition: all 0.5s ease-out;
+    }
+    
+    .animate-on-scroll.visible {/* État final (visible) */
+        opacity: 1;
+    }
+
+    .smoothEntry {
+        animation: smoothEntry 1s;
+        animation-delay: 1s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
 /*FIN ANIMATION*/
 
 /*HEADER*/
@@ -177,7 +196,9 @@ nav {
     text-decoration: none;
     height: 3vw;
     animation: smoothEntry 1s;
-    animation-delay: 0.3s;
+    animation-delay: 0.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
 .logo a {
@@ -290,7 +311,9 @@ nav ul li a.hovered {
     height: auto;
     margin-bottom: -70px;
     animation: leftSlideEntry 1s;
-    animation-delay: 0.3s;
+    animation-delay: 0.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
 #textSection {
@@ -311,7 +334,9 @@ align-items: center;
     padding-left: 3%;
     margin: -40px 0 0 0;
     animation: rightSlideEntry 1s;
-    animation-delay: 0.3s;
+    animation-delay: 0.6s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
 
@@ -321,8 +346,11 @@ align-items: center;
     color: #ffffff;
     margin: -40px 0 0 0;
     text-shadow: 0 0 30px #00000090;
+    opacity: 0;
+    animation-fill-mode: forwards;
     animation: smoothEntry 2s;
-    animation-delay: 0.3s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
 }
 
 /* Animation de la souris */
@@ -842,7 +870,7 @@ footer > p:nth-of-type(3) {
         margin-right: 30px;
         margin-bottom: -30px;
         animation: smoothEntry 1s;
-        animation-delay: 0.3s;
+        animation-delay: 0.5s;
     }
 
     #textSection {

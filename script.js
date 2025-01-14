@@ -111,3 +111,29 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+//ANIMATIONS
+// Sélectionner toutes les divs à animer
+const divsToAnimate = document.querySelectorAll('.animate-on-scroll');
+// Options pour l'Intersection Observer
+const observerOptions = {
+    root: null, // Utilise la fenêtre comme conteneur racine
+    threshold: 0.5 // 10% de la div doit être visible avant de déclencher
+};
+// Fonction appelée quand une intersection est détectée
+const observerCallback = (entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Ajouter la classe pour déclencher l'animation
+            entry.target.classList.add('visible');
+            // Optionnel : Arrêter d'observer cette div après animation
+            observer.unobserve(entry.target);
+        }
+    });
+};
+// Créer l'instance de l'observer
+const observer = new IntersectionObserver(observerCallback, observerOptions);
+// Appliquer l'observer à chaque div
+divsToAnimate.forEach(div => {
+    observer.observe(div);
+});
