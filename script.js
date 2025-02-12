@@ -118,7 +118,7 @@ const divsToAnimate = document.querySelectorAll('.animate-on-scroll');
 // Options pour l'Intersection Observer
 const observerOptions = {
     root: null, // Utilise la fenêtre comme conteneur racine
-    threshold: 0.5 // 10% de la div doit être visible avant de déclencher
+    threshold: 0.5 // 50% de la div doit être visible avant de déclencher
 };
 // Fonction appelée quand une intersection est détectée
 const observerCallback = (entries, observer) => {

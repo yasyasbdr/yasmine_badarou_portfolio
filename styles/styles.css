@@ -738,64 +738,59 @@ footer > p:nth-of-type(3) {
 
 /*RESPONSIVE*/
 @media (max-width: 767px) {/*Mobile (paysage)*/
-    .slide {
-        flex: 0 0 calc(100% / 2); /*Deux slides par vue*/
-        max-width: calc(100% / 2);
-    }
-    
-    header {
-        /*width: 72.1vw;*/
-        /*width: 50vh;*/
-        width: 90%;
-        height: 5.5vw!important;
-    }
-
+    /*DÉBUT ZONE HEADER*/
     nav {
-        width: 80%;
+        width: 50vw;
     }
-
     nav ul li a {
         font-size: 0.9em;
     }
 
-    a[href="#competences"] {
-        display: none;
-    }
-
-    .nav-left li:nth-child(3) a[href="#competences"] {
-        margin-left: -4.3vw;
-        position: relative;
-        display: inline-block;
-    }
-
     .nav-left {
-        padding: 4px 0px 13px 0px;
-
+        width: 50%;
     }
 
     .nav-right {
-        padding: 4px 0px 13px 0px;
-        justify-content: space-evenly;
+        width: 45%;
+    }
+    /*FIN ZONE HEADER*/
+    /*ZONE DE FLOTTAISON*/
+    #photoSection img {
+        width: 75vh;
     }
 
-    #Y {
-        font-size: 1.9em;
+    #yasmineBadarou {
+        margin-bottom: 10px;
+        font-size: 6vw;
     }
 
-    #B {
-        font-size: 1.7em;
-        margin-top: -48px;
-        /*position: relative;*/
-    }
-    /*DÉBUT ZONE PROJETS*/
-    #devwebresponsive {
-        display: block;
+    #statut {
+        font-size: 1.9vw;
     }
 
-    .filter-buttons button:nth-of-type(1) {
-        display: none;
+    #textSection {
+        margin-top: 2em;
     }
-    /*FIN ZONE PROJETS*/
+
+    #animatedMouse {
+        margin-top: 32px;
+        width: 22px;
+        height: 36px;
+    }
+
+    #animatedMouse::before {
+        height: 10px;
+    }
+    /*FIN ZONE DE FLOTTAISON*/
+    /*DÉBUT ZONE PROFIL*/
+    #profil-text p {
+        font-size: 3.3vh;
+    }
+
+    #profil {
+        padding: 0 7vw 0;
+    }
+    /*FIN ZONE PROFIL*/    
 }
 
 @media (max-width: 480px) {/*Mobile (portrait)*/
